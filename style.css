@@ -13,8 +13,9 @@ body{
     background: rgb(126, 253, 97);
 background: linear-gradient(145deg, rgb(123, 250, 95) 36%, rgb(43, 67, 39) 100%);
 background-repeat: no-repeat;
-background-size: auto;
+background-size:500%;
 overflow-x: hidden;
+width:min-content;
 }
 
 .cabecalho{
@@ -23,6 +24,7 @@ overflow-x: hidden;
     align-items: center;
     justify-content: space-around;
     padding: 3vmax;
+    width:130%;
 }
 
 .cabecalho-img{
@@ -40,6 +42,7 @@ overflow-x: hidden;
 .conteudo{
     border-top: 0.4px solid rgb(0, 0, 0);
     margin-bottom: 4vmax;
+    width: 142%;
 }
 .conteudo-principal{
     display: flex;
@@ -51,6 +54,7 @@ overflow-x: hidden;
     margin-right: 7%;
     margin-top: 5%;
     margin-bottom: 2%;
+    
 }
 .conteudo-principal-escrito{
     display: flex;
@@ -58,7 +62,8 @@ overflow-x: hidden;
     gap: 1.2vmax;
 }
 .conteudo-principal-imagem{
-    height: 600px;
+    height: 30vmax;
+    margin-left: 10vmax;
 
 }
 .conteudo-principal-escrito-subtitulo{
@@ -126,6 +131,7 @@ li{
     justify-content: center;
     margin-bottom:2vmax;
     border-top: 0.4px solid rgb(0, 0, 0);
+    width: 142%;
 }
 .conteudo-secundario{
     width: 100%;
