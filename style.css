@@ -25,6 +25,7 @@ width:min-content;
     justify-content: space-around;
     padding: 3vmax;
     width:130%;
+    height: 10%;
 }
 
 .cabecalho-img{
@@ -43,6 +44,7 @@ width:min-content;
     border-top: 0.4px solid rgb(0, 0, 0);
     margin-bottom: 4vmax;
     width: 142%;
+    height: 80%;
 }
 .conteudo-principal{
     display: flex;
@@ -132,6 +134,7 @@ li{
     margin-bottom:2vmax;
     border-top: 0.4px solid rgb(0, 0, 0);
     width: 142%;
+    height: 10%;
 }
 .conteudo-secundario{
     width: 100%;
