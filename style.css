@@ -16,6 +16,9 @@ background-repeat: no-repeat;
 background-size:500%;
 overflow-x: hidden;
 width:min-content;
+
+
+
 }
 
 .cabecalho{
@@ -99,11 +102,11 @@ width:min-content;
 .conteudo-principal-escrito-botao:hover{
     background-color: black;
     color:whitesmoke;
-    width: 31vmax;
+    width: 30vmax;
     height: 3vmax;
     align-self: center;
     align-content: center;
-    
+    font-size: larger;
 }
 
 li{
@@ -161,4 +164,187 @@ li{
 .conteudosecundario-titulo{
     margin-left: 5vmax;
     font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen (max-width:730px){
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background: rgb(126, 253, 97);
+background: linear-gradient(145deg, rgb(123, 250, 95) 36%, rgb(43, 67, 39) 100%);
+background-repeat: no-repeat;
+background-size:200%;
+overflow-x: hidden;
+width:min-content;
+
+
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3vmax;
+    width:100%;
+    height: 10%;
+}
+
+.cabecalho-img{
+    height: 2vmin;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 4vmax;
+}
+.cabecalho-menu-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(0, 0, 0);
+    margin-bottom: 4vmax;
+    width: 100%;
+    height: 80%;
+}
+.conteudo-principal{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+    margin-left: 2%;
+    margin-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    font-size:x-small;
+    gap: 1vmin;
+    width: 500px;
+}
+.conteudo-principal-imagem{
+    height: 30vmin;
+    margin-left: 0.1vmin;
+
+}
+.conteudo-principal-escrito-subtitulo{
+    display: flex;
+    align-self: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.conteudo-principal-escrito-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5vmax;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: small;
+    border-radius: 10px 0px 10px 10px;
+    background-color: whitesmoke;
+    color:black;
+    width: 30vmax;
+    height: 3vmax;
+    align-self: center;
+    align-content: center;
+    transition-duration: 0.4s;
+    
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: black;
+    color:whitesmoke;
+    width: 30vmax;
+    height: 3vmax;
+    align-self: center;
+    align-content: center;
+    font-size: larger;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    
+}
+
+.descitem{
+    height: 3vmax;
+}
+.target{
+    height: 3vmax;
+}
+.item-lista{
+    display:flex;
+    justify-content: start;
+    gap: 3vmax;
+}
+.rodape{
+    padding-top: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    margin-bottom:2vmax;
+    border-top: 0.4px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 10%;
+}
+.rodape-imagem{
+    height: 70px;
+    width: 300px;
+    display: flex;
+    align-self: center;
+}
+.conteudo-secundario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: start;
+    gap: 6vmax;
+    margin-left: 5vmax;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.conteudo-secundario-imagens{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    height: 15vmax;
+    width: 15vmax;
+    margin-right: 30%;
+    margin-bottom: 10%;
+}
+.conteudo-principal-escrito-desc{
+    padding-left: 0.1%;
+}
+.conteudosecundario-titulo{
+    margin-left: 5vmax;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+    
 }
